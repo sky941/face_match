@@ -163,3 +163,7 @@ def initialize_database():
         return JSONResponse(content={"message": "Database initialized successfully!"})
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error initializing database: {str(e)}")
+    
+@app.get("/")
+def home():
+    return {"message": "Welcome to the FastAPI app on Vercel!"}
