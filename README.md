@@ -30,3 +30,35 @@ Feature Extraction
 Face Comparison
      ↓
 Similarity / Match Result
+
+
+🎯 Use Cases
+- Identity Verification
+- User Authentication
+- Face Matching
+- Access Control
+- AI-powered KYC workflows
+- Computer Vision experimentation
+
+
+🏗️ Architecture
+Client
+   ↓
+REST API
+   ↓
+Face Processing
+   ↓
+Feature Extraction
+   ↓
+Matching Engine
+   ↓
+Match Response
+
+
+## 🚀 Deployment
+The application is containerized using Docker and designed to be deployed as an API service.
+
+
+## 👨‍💻 Author
+Akash Gupta
+AI Engineer | Agentic AI | Mobile & On-Device AI | Computer Vision
